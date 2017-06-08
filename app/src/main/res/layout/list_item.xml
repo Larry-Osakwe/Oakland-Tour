@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="88dp"
     android:background="@color/primary_light"
-    android:minHeight="@dimen/list_item_height">
+    android:minHeight="88dp">
 
     <ImageView
         android:id="@+id/location_image"
