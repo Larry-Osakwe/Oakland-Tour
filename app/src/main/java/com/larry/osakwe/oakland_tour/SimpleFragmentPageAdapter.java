@@ -34,13 +34,13 @@ public class SimpleFragmentPageAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.day_activities);
         } else if (position == 1) {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.night_activities);
         } else if (position == 2) {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.restaurants);
         } else {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.theaters);
         }
 
     }
