@@ -31,11 +31,18 @@ public class RestaurantsFragment extends Fragment {
         final ArrayList<Location> locations = new ArrayList<Location>();
 
 
-        locations.add(new Location("Tacos Rancho", "hold", R.drawable.tacos_rancho));
-        locations.add(new Location("Wood Tavern", "hold", R.drawable.wood_tavern));
-        locations.add(new Location("Homeroom", "hold", R.drawable.homeroom));
-        locations.add(new Location("Aunt Mary's", "hold", R.drawable.aunt_marys));
-
+        locations.add(new Location("Tacos Mi Rancho", "1434 1st Ave",
+                "(510) 395-1403", "Casual, cash-only spot for Mexican street food such as tacos" +
+                " & huge burritos, served till late", R.drawable.tacos_rancho));
+        locations.add(new Location("Wood Tavern", "6317 College Ave",
+                "(510) 654-6607", "Californian-inspired menu of sustainable fare plus wine" +
+                " in a modern-rustic setting", R.drawable.wood_tavern));
+        locations.add(new Location("Homeroom", "400 40th St",
+                "(510) 597-0400", "Offers fancy mac 'n' cheese for kids of all ages plus" +
+                " adults-only beer floats", R.drawable.homeroom));
+        locations.add(new Location("Aunt Mary's Cafe", "4640 Telegraph Ave",
+                "(510) 601-9227", "A cozy local cafe serving homey comfort food with a Southern" +
+                " & Southwestern twist in an airy space", R.drawable.aunt_marys));
 
 
         //Create an ArrayAdapter whose data source is a list of Strings.

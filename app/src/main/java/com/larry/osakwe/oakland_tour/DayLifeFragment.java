@@ -20,12 +20,10 @@ public class DayLifeFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
-
 
         //Create list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
@@ -58,8 +56,6 @@ public class DayLifeFragment extends Fragment {
         locations.add(new Location("Oakland Museum", "1000 Oak St", "(510) 318-8400",
                 "Artifacts & interactive displays in a modern building focusing on state art," +
                         " history & science.", R.drawable.oak_museum));
-
-
 
         //Create an ArrayAdapter whose data source is a list of Strings.
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.primary_light);
