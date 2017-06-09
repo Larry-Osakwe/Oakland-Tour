@@ -31,9 +31,16 @@ public class TheatersFragment extends Fragment {
         final ArrayList<Location> locations = new ArrayList<Location>();
 
         //String name, String address, String number, String description, int imageResourceId
-        locations.add(new Location("Grand Lake Theater", "3200 Grand Ave", "(510) 452-3556", "The Grand Lake Theatre is a historic movie palace. Features a $5 Tuesday deal.", R.drawable.grandlake_theater));
-        locations.add(new Location("Piedmont Theater", "hold", R.drawable.peidmont_theater));
-        locations.add(new Location("Newpark Couch Theater", "hold", R.drawable.newpark_couch_theater));
+        locations.add(new Location("Grand Lake Theater", "3200 Grand Ave", "(510) 452-3556",
+                "The Grand Lake Theatre is a historic movie palace. Features a $5 Tuesday deal.",
+                R.drawable.grandlake_theater));
+        locations.add(new Location("Piedmont Theater", "4186 Piedmont Ave", "(510) 985-1252",
+                "Movie theater screening new releases as well as independent," +
+                        " foreign & avant-garde flicks.", R.drawable.peidmont_theater));
+        locations.add(new Location("Newpark Couch Theater", "474 24th St", "(510) 658-7900",
+                "Unique movie theater with comfy couches & a cafe serving American diner fare, " +
+                        "plus beer & wine.",
+                R.drawable.newpark_couch_theater));
 
 
         //Create an ArrayAdapter whose data source is a list of Strings.

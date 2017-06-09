@@ -17,13 +17,11 @@
     <RelativeLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/list_item_height"
+        android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@id/location_image"
-        android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:layout_alignBottom="@+id/location_image">
+        android:paddingLeft="8dp">
 
         <TextView
             android:id="@+id/location_name"
@@ -56,7 +54,7 @@
                 android:gravity="center_vertical"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/white"
-                tools:text="1111 Address lane" />
+                tools:text="Telegraph Ave. from W. Grand to 27th St." />
         </LinearLayout>
 
         <LinearLayout
@@ -71,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/ic_room_white_24dp" />
+                android:src="@drawable/ic_phone_white_24dp" />
 
             <TextView
                 android:id="@+id/phone_number"
@@ -93,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Description of place"
-        android:layout_below="@+id/location_image"
+        android:layout_below="@+id/text_container"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textColor="@color/primary_text"
